@@ -1,0 +1,11 @@
+[33mcommit b939443c36ba388977af32a0e127da80440ceea9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: bel-konseh <silasbel453@gmail.com>
+Date:   Tue Aug 26 01:21:32 2025 +0100
+
+    Add readme file to project
+
+[33mcommit f9a5820c2f94c6f26793262baaf7050e6131276d[m
+Author: bel-konseh <silasbel453@gmail.com>
+Date:   Tue Aug 26 01:18:15 2025 +0100
+
+    Project scaffold and setup
