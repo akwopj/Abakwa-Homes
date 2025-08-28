@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Houses</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->
-      <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/view-product.css">
 </head>
 
 <body>
@@ -39,31 +40,304 @@
     <!-- main content -->
    <main>
 
-   </main>
-
-    <!-- footer -->
-    <div class="container">
-            <footer class="py-3 my-4"> 
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">View profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">sign up</a>
-                    </li>
-                </ul>
-                <p class="text-center text-body-secondary">© 2025 Abakwa Homes</p> 
-            </footer>
     </div>
+      <!-- Search Section -->
+      <div class="container mt-4">
+          <h6 class="text-center">Hey!!! Searching for a place to stay?</h6>
+          <div class="row">
+              <div class="col-md-3">
+                  <select class="form-select">
+                      <option>Location</option>
+                      <option>Up-quarter</option>
+                      <option>Down-quarters</option>
+                  </select>
+              </div>
+              <div class="col-md-3">
+                  <select class="form-select">
+                      <option>House model</option>
+                      <option>studio</option>
+                      <option>self-contained</option>
+                  </select>
+              </div>
+              <div class="col-md-3">
+                  <select class="form-select">
+                      <option>Price</option>
+                      <option>FCFA100K-200K</option>
+                      <option>FCFA200K-300K</option>
+                  </select>
+              </div>
+              <div class="col-md-3">
+                  <button class="btn btn-outline-primary w-100 search">Search</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="container mt-4">
+        <h2 class="text-center">Properties for sale</h2>
+          <div class="row text-center">
+              <div class="col-md-3">
+                  <div class="property-card">
+                     <h5>Abakwa Plaza</h5>
+                      <img src="../assets/pics/IMG_2780.JPG" alt="Property 1">
+                      <div class="col">
+                        <div class="row-md-6 mx-auto d-flex-justify-content-md-start">
+                            <button class="btn btn-outline-dark btn-block mt-3 details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
+              
+              <div class="col-md-3">
+                  <div class="property-card">
+                      <h5>PJ Villa</h5>
+                      <img src="../assets/pics/IMG_2779.JPG" alt="Property 2">
+                      <div class="col">
+                        <div class="row-md-6 mx-auto d-flex-justify-content-md-start">
+                            <button class="btn btn-outline-dark btn-block mt-3 details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="property-card">
+                      <h5>Big Boy Cite</h5>
+                      <img src="../assets/pics/IMG_2781.JPG" alt="Property 3">
+                      <div class="col">
+                        <div class="row-md-6 mx-auto d-flex-justify-content-md-start">
+                            <button class="btn btn-outline-dark btn-block mt-3 details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
+
+            <div class="col-md-3">
+                  <div class="property-card ">
+                     <h5>Sun City</h5>
+                      <img src="../assets/pics/IMG_2780.JPG" alt="Prperty 1">
+                      <div class="col">
+                        <div class="row-md-6 mx-auto d-flex-justify-content-md-start">
+                            <button class="btn btn-outline-dark btn-block mt-3 details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
+              
+          </div>
+      </div>    
+    </header>
+
+      <!-- Properties Section -->
+      <div class="container mt-4 ">
+          <h2 class="text-center">Houses for rent</h2>
+          <div class="col bottom">
+           <div class="row text-center">
+              <div class="col-md-4">
+                  <div class="property-card">
+                      <img src="../assets/pics/IMG_2779.JPG" alt="Property 1">
+                      <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center icons">
+                            <img src="../assets/product-icons/bedroom.PNG" alt="">
+                            <p class="text-center">bedroom</p>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center icons">
+                            <img src="../assets/product-icons/kitchen.JPG" alt="">
+                            <p class="text-center">Kitchen</p>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center icons">
+                            <img src="../assets/product-icons/bath.PNG" alt="">
+                            <p class="text-center">toilet</p>
+                        </div>                        
+                      </div>
+
+                      <div class="col">
+                        <div class="row-md-6 mx-auto text-center">
+                            <button class="btn btn-outline-dark btn-block details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="property-card">
+                      <img src="../assets/pics/IMG_2780.JPG" alt="Property 2">
+                      <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center icons">
+                          <img src="../assets/product-icons/parlor.PNG" alt="">
+                          <p class="text-center">Parlor</p>  
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center icons">
+                            <img src="../assets/product-icons/kitchen.JPG" alt="">
+                            <p class="text-center">Kitchen</p>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center icons">
+                            <img src="../assets/product-icons/bath.PNG" alt="">
+                            <p class="text-center">Toilet</p>                      
+                        </div>
+                      </div>                     
+                      <div class="col">
+                        <div class="row-md-6 mx-auto text-center">
+                            <button class="btn btn-outline-dark btn-block details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="property-card">
+                      <img src="../assets/pics/IMG_2779.JPG" alt="Property 3">
+                    <div class="row">
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/bedroom.PNG" alt="">
+                        <p class="text-center">Bedroom</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/kitchen.JPG" alt="">
+                        <p class="text-center">Kitchen</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/parlor.PNG" alt="">
+                        <p class="text-center">Parlor</p>
+                      </div>
+                    </div>
+
+                      <div class="col">
+                        <div class="row-md-6 text-center mx-auto">
+                            <button class="btn btn-outline-dark btn-block details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="property-card">
+                      <img src="../assets/pics/IMG_2781.JPG" alt="Property 4">
+                    <div class="row">
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/bedroom.PNG" alt="">
+                        <p class="text-center">Bedroom</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/kitchen.JPG" alt="">
+                        <p class="text-center">Kitchen</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/bath.PNG" alt="">
+                        <p class="text-center">Toilet</p>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <div class="row-md-6 mx-auto">
+                            <button class="btn btn-outline-dark btn-block details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="property-card ">
+                      <img src="../assets/pics/IMG_2779.JPG" alt="Property 5">
+                    <div class="row">
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/bedroom.PNG" alt="">
+                        <p class="text-center">Bedroom</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/kitchen.JPG" alt="">
+                        <p class="text-center">Kitchen</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/bath.PNG" alt="">
+                        <p class="text-center">toilet</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="row-md-6 mx-auto text-center">
+                            <button class="btn btn-outline-dark btn-block details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="property-card">
+                      <img src="../assets/pics/IMG_2780.JPG" alt="Property 6">
+                    <div class="row">
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/bedroom.PNG" alt="">
+                        <p class="text-center">Bedroom</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/kitchen.JPG" alt="">
+                        <p class="text-center">Kitchen</p>
+                      </div>
+                      <div class="col d-flex justify-content-center align-items-center icons">
+                        <img src="../assets/product-icons/parlor.PNG" alt="">
+                        <p class="text-center">Parlor</p>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <div class="row-md-6 text-center mx-auto ">
+                            <button class="btn btn-outline-dark btn-block details">
+                                See Details
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="container">
+                    <div class="d-grid gap-2 d-flex justify-content-center mb-2">
+                        <button class="btn btn-primary btn-lg view">
+                            view more
+                        </button>
+                    </div>
+                </div>          
+        </div>
+      </div>
+
+
+   </main>
+       <!-- footer -->
+    <div class="container">
+        <footer class="py-3 my-4"> 
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">View profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">sign up</a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 Abakwa Homes</p> 
+        </footer>
+    </div>
+
 
  <!-- <div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
