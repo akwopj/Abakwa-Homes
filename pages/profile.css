@@ -1,0 +1,60 @@
+ .bg-blue {
+      background-color: #2d1d82;
+      min-height: 100vh;
+    }
+
+    .profile-section {
+      min-height: 100vh;
+    }
+
+    .list-group-item {
+      border-left: none;
+      border-right: none;
+      padding: 15px 0;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .list-group-item:hover {
+      background-color: #f8f9fa;
+    }
+
+    .list-group-item:first-child {
+      border-top: none;
+    }
+
+    .list-group-item:last-child {
+      border-bottom: none;
+    }
+
+    .profile-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+
+    @media (min-width: 768px) {
+      .profile-img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .right-section {
+      background-color: #f8f9fa;
+    }
+
+    .company-logo {
+      max-width: 200px;
+      height: auto;
+    }
+
+    @media (max-width: 767px) {
+      .bg-blue {
+        min-height: 20px;
+      }
+
+      .company-logo {
+        max-width: 150px;
+      }
+    }
