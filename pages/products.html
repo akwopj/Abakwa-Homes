@@ -4,34 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Houses</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/view-product.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->
+<!--       <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <style>
+        .nav-logo{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          
+        }
+      </style> -->
+
 </head>
 
 <body>
     <!-- Header and nav -->
-    <div class="container"> 
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                 <!-- <img src="./abakwa homes logo.jpg" alt="" class="w-50 "> -->
+    <div class="container  top-0 bg-white mb-5 z-3 mt-0 w-100"> 
+        <header class=" py-3 mb-4  navbar navbar-expand-md ">
+             <a href="/" class="navbar-brand text-decoration-none align-items-center ">
+                 <img src="../assets/logos/abakwa homes logo.jpg" class="nav-logo" alt="" class="w-50 ">
                  <span class="fs-4 text-secondary">Abakwa Homes</span> 
                 </a> 
-                <ul class="nav nav-pills"> 
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navul">
+                    <div class="navbar-toggler-icon"></div>
+                </button>
+                <ul class="nav nav-pills navbar-nav collapse navbar-collapse justify-content-end text-start" id="navul"> 
                     <li class="nav-item">
-                        <a href="#" class="nav-link " aria-current="page">Home</a>
+                        <a href="../index.html" class="nav-link " aria-current="page">Home</a>
                     </li> 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About us</a>
+                        <a href="./about.html" class="nav-link">About us</a>
                     </li> 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">View Products</a>
+                        <a href="./products.html" class="nav-link active">View Products</a>
                     </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link">Login</a>
+                        <a href="./login.html" class="nav-link">Login</a>
                     </li> 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Sign Up</a>
+                        <a href="./signup.html" class="nav-link">Sign Up</a>
                     </li> 
                 </ul> 
         </header> 
@@ -313,9 +329,10 @@
       </div>
 
 
+
    </main>
        <!-- footer -->
-    <div class="container">
+<!--     <div class="container">
         <footer class="py-3 my-4"> 
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
@@ -325,16 +342,37 @@
                     <a href="#" class="nav-link px-2 text-body-secondary">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary">View profile</a>
+                    <a href="#" class="nav-link px-2 text-body-secondary">View profile</a> -->
+
+    <!-- footer -->
+       <div class="team container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link px-2 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link px-2 text-body-secondary">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./profile.html" class="nav-link px-2 text-body-secondary">View profile</a>
+
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary">sign up</a>
+
+<!-- <!--                     <a href="#" class="nav-link px-2 text-body-secondary">sign up</a>
                 </li>
             </ul>
-            <p class="text-center text-body-secondary">© 2025 Abakwa Homes</p> 
+            <p class="text-center text-body-secondary">© 2025 Abakwa Homes</p>  --> 
+
+                    <a href="./signup.html" class="nav-link px-2 text-body-secondary">sign up</a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 Abakwa Homes</p>
+
         </footer>
     </div>
 
